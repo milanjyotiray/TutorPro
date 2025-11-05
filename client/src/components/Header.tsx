@@ -42,7 +42,7 @@ export function Header() {
         <div className="flex items-center justify-between h-16 md:h-20">
           <button
             onClick={() => scrollToSection("hero")}
-            className="flex items-center gap-2 hover-elevate active-elevate-2 px-3 py-2 rounded-md transition-all"
+            className="flex items-center gap-2 hover-elevate active-elevate-2 px-3 py-2 rounded-md transition-all duration-300 transform hover:scale-105"
             data-testid="button-logo"
           >
             <GraduationCap className="h-7 w-7 md:h-8 md:w-8 text-primary" />

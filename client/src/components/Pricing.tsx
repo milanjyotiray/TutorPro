@@ -7,10 +7,11 @@ export function Pricing() {
   return (
     <section
       id="pricing"
-      className="py-16 md:py-24 bg-muted/30"
+      className="py-16 md:py-24 bg-gradient-to-br from-primary/5 via-muted/30 to-background relative"
       data-testid="section-pricing"
     >
-      <div className="max-w-6xl mx-auto px-4 md:px-6 lg:px-8">
+      <div className="absolute inset-0 bg-dot-pattern opacity-[0.02]" />
+      <div className="max-w-6xl mx-auto px-4 md:px-6 lg:px-8 relative">
         <div className="text-center space-y-4 mb-12 md:mb-16">
           <h2
             className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground"
@@ -27,7 +28,7 @@ export function Pricing() {
           {pricingData.map((tier) => (
             <Card
               key={tier.id}
-              className="hover-elevate"
+              className="hover-elevate hover-lift transition-all duration-300 transform hover:scale-[1.02]"
               data-testid={`card-pricing-${tier.id}`}
             >
               <div className="p-6 md:p-8">

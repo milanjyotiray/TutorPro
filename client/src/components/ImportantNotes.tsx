@@ -5,10 +5,11 @@ import { importantNotesData } from "@shared/schema";
 export function ImportantNotes() {
   return (
     <section
-      className="py-16 md:py-24 bg-background"
+      className="py-16 md:py-24 bg-gradient-to-b from-background to-muted/10 relative"
       data-testid="section-important-notes"
     >
-      <div className="max-w-6xl mx-auto px-4 md:px-6 lg:px-8">
+      <div className="absolute inset-0 bg-grid-pattern opacity-[0.015]" />
+      <div className="max-w-6xl mx-auto px-4 md:px-6 lg:px-8 relative">
         <div className="text-center space-y-4 mb-12 md:mb-16">
           <div className="inline-flex items-center gap-2 bg-primary/10 text-primary px-4 py-2 rounded-full text-sm font-semibold">
             <AlertCircle className="h-4 w-4" />
@@ -26,7 +27,7 @@ export function ImportantNotes() {
           {importantNotesData.map((note) => (
             <Card
               key={note.id}
-              className="p-6 md:p-8 hover-elevate relative"
+              className="p-6 md:p-8 hover-elevate hover-lift transition-all duration-300 transform hover:scale-105 relative"
               data-testid={`card-note-${note.id}`}
             >
               <div className="absolute left-0 top-0 bottom-0 w-1 bg-primary rounded-l-md" />

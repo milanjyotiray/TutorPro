@@ -4,8 +4,9 @@ export function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-muted/50 border-t border-border" data-testid="footer">
-      <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8 py-12 md:py-16">
+    <footer className="bg-gradient-to-b from-muted/50 to-muted/70 border-t border-border relative" data-testid="footer">
+      <div className="absolute inset-0 bg-dot-pattern opacity-[0.02]" />
+      <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8 py-12 md:py-16 relative">
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-12 mb-8">
           <div className="space-y-4">
             <div className="flex items-center gap-2">

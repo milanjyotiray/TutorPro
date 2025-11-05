@@ -11,10 +11,11 @@ export function Contact() {
   return (
     <section
       id="contact"
-      className="py-16 md:py-24 bg-background"
+      className="py-16 md:py-24 bg-gradient-to-b from-muted/20 to-background relative"
       data-testid="section-contact"
     >
-      <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8">
+      <div className="absolute inset-0 bg-grid-pattern opacity-[0.02]" />
+      <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8 relative">
         <div className="text-center space-y-4 mb-12 md:mb-16">
           <h2
             className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground"
@@ -29,7 +30,7 @@ export function Contact() {
 
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
-            <Card className="p-6 md:p-8">
+            <Card className="p-6 md:p-8 hover-elevate hover-lift transition-all duration-300">
               <h3 className="text-xl md:text-2xl font-semibold text-foreground mb-6">
                 Contact Information
               </h3>

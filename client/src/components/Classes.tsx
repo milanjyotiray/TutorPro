@@ -12,10 +12,11 @@ export function Classes() {
   return (
     <section
       id="classes"
-      className="py-16 md:py-24 bg-background"
+      className="py-16 md:py-24 bg-gradient-to-b from-background via-muted/20 to-background relative"
       data-testid="section-classes"
     >
-      <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8">
+      <div className="absolute inset-0 bg-grid-pattern opacity-[0.02]" />
+      <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8 relative">
         <div className="text-center space-y-4 mb-12 md:mb-16">
           <h2
             className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground"
@@ -34,7 +35,7 @@ export function Classes() {
             return (
               <Card
                 key={classItem.id}
-                className="p-6 md:p-8 hover:shadow-lg transition-all duration-300 hover-elevate"
+                className="p-6 md:p-8 hover:shadow-2xl transition-all duration-300 transform hover:scale-105 hover-elevate hover-lift"
                 data-testid={`card-class-${classItem.id}`}
               >
                 <div className="flex flex-col items-center text-center space-y-4">
