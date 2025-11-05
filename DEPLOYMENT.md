@@ -1,5 +1,18 @@
 # Deployment Guide for TutorPro
 
+## Deployment Platform Options
+
+This application can be deployed to multiple platforms:
+
+1. **Render** (Recommended) - Best for full-stack Node.js apps
+2. **Railway** (Recommended) - Auto-deploys from GitHub  
+3. **Replit** - Already configured via `.replit` file
+4. **Netlify** - See `NETLIFY_DEPLOYMENT.md` for specific instructions
+5. **Fly.io** - Global edge deployment
+6. **Heroku** - Classic PaaS
+
+**For Netlify users:** This app requires special configuration for Netlify. See `NETLIFY_DEPLOYMENT.md` for detailed instructions.
+
 ## Pre-Deployment Checklist
 
 ### ✅ Completed

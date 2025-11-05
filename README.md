@@ -67,7 +67,16 @@ npm run check
 
 ## Deployment Notes
 
-- The application is configured for Replit deployment (see `.replit` file)
-- Ensure all environment variables are set before deployment
-- Run `npm run build` before starting the production server
+### Platform Support
+- **Replit**: Pre-configured (see `.replit` file)
+- **Netlify**: Configured with `netlify.toml` (see `NETLIFY_DEPLOYMENT.md`)
+- **Render/Railway**: Recommended for full-stack apps (see `DEPLOYMENT.md`)
+
+### Before Deployment
+- Ensure all environment variables are set (see `.env.example`)
+- Run `npm run build` to create production build
 - The server listens on the port specified in the `PORT` environment variable
+
+### Platform-Specific Guides
+- General deployment: See `DEPLOYMENT.md`
+- Netlify deployment: See `NETLIFY_DEPLOYMENT.md`
