@@ -2,6 +2,14 @@
 
 A tutoring service website built with React, Express, and TypeScript.
 
+## 🚀 Quick Deploy
+
+**Ready to deploy?** See [QUICK_DEPLOY.md](QUICK_DEPLOY.md) for step-by-step instructions.
+
+**Recommended:** Deploy to [Render](https://render.com) - takes just 5 minutes!
+
+---
+
 ## Prerequisites
 
 - Node.js 20.x or higher
