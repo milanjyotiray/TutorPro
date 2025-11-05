@@ -26,21 +26,24 @@ export function ImportantNotes() {
           {importantNotesData.map((note) => (
             <Card
               key={note.id}
-              className="p-6 md:p-8 border-l-4 border-l-primary hover-elevate"
+              className="p-6 md:p-8 hover-elevate relative"
               data-testid={`card-note-${note.id}`}
             >
-              <h3
-                className="text-lg md:text-xl font-semibold text-foreground mb-3"
-                data-testid={`text-note-title-${note.id}`}
-              >
-                {note.title}
-              </h3>
-              <p
-                className="text-sm md:text-base text-muted-foreground leading-relaxed"
-                data-testid={`text-note-description-${note.id}`}
-              >
-                {note.description}
-              </p>
+              <div className="absolute left-0 top-0 bottom-0 w-1 bg-primary rounded-l-md" />
+              <div className="pl-4">
+                <h3
+                  className="text-lg md:text-xl font-semibold text-foreground mb-3"
+                  data-testid={`text-note-title-${note.id}`}
+                >
+                  {note.title}
+                </h3>
+                <p
+                  className="text-sm md:text-base text-muted-foreground leading-relaxed"
+                  data-testid={`text-note-description-${note.id}`}
+                >
+                  {note.description}
+                </p>
+              </div>
             </Card>
           ))}
         </div>

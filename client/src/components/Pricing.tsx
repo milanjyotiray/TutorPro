@@ -27,7 +27,7 @@ export function Pricing() {
           {pricingData.map((tier) => (
             <Card
               key={tier.id}
-              className="overflow-hidden hover-elevate"
+              className="hover-elevate"
               data-testid={`card-pricing-${tier.id}`}
             >
               <div className="p-6 md:p-8">
