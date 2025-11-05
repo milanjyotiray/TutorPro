@@ -119,7 +119,10 @@ function showMessage(message, type) {
 
 // Add active state to current page in navigation
 window.addEventListener('load', function() {
-    const currentLocation = window.location.pathname.split('/').pop() || 'index.html';
+    let currentLocation = window.location.pathname.split('/').pop();
+    if (!currentLocation || currentLocation === '') {
+        currentLocation = 'index.html';
+    }
     const navLinks = document.querySelectorAll('.nav-links a');
     
     navLinks.forEach(link => {
