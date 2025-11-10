@@ -179,13 +179,13 @@ export const pricingData: PricingTier[] = [
     category: "Class 12 (PCM)",
     oneToOne: {
       price: "1500",
-      details: "per month (12 classes)",
+      details: "per subject & per month (12 classes)",
     },
     group: {
       price: "₹800",
-      details: "per month (12 classes)",
+      details: "per subject & per month (12 classes)",
     },
-    isOnlineOnly: true,
+    isOnlineOnly: false,
   },
 ];
 
