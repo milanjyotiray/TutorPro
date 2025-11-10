@@ -148,7 +148,7 @@ export function Header() {
             <Button
               onClick={() =>
                 window.open(
-                  "https://forms.gle/1tPqB9YspCoCvxsh6",
+                  "https://forms.gle/bt6oLuRTYBS3EXda8",
                   "_blank"
                 )
               }
