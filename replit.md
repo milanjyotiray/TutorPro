@@ -140,9 +140,9 @@ Preferred communication style: Simple, everyday language.
 - Hero image reference: `Students_celebrating_academic_success_d0d6a5e9.png`
 
 ### Third-Party Services
-- **Google Forms**: Registration form (https://forms.gle/1tPqB9YspCoCvxsh6)
+- **Google Forms**: Registration form (https://forms.gle/TVEfUBmqcdGKw7Jk6)
 - **WhatsApp Business**: Contact integration for messaging
-- **Phone**: Direct calling via `tel:` links (8011551863)
+- **Phone**: Direct calling via `tel:` links (9678165375)
 
 ### Font Loading
 - **Google Fonts**: Architects Daughter, DM Sans, Fira Code, Geist Mono (preconnected)
