@@ -200,18 +200,18 @@ export const importantNotesData: ImportantNote[] = [
     id: "2",
     title: "Online Classes",
     description:
-      "Online Tuition will be conducted LIVE on Teachmint App, 3 days per week.",
+      "Online Tuition will be conducted LIVE on Zoom, 3 days per week.",
   },
   {
     id: "3",
     title: "Assessment",
     description:
-      "Regular Tests & MCQ Practice will be provided for better preparation.",
+      "Weekly Tests & MCQ Practice will be provided for better preparation.",
   },
   {
     id: "4",
     title: "Language",
     description:
-      "Tuition is only for English Medium students, but the explanation will be provided in Assamese for better understanding.",
+      "Tuition is  for  both Assamese & English Medium students, but the explanation will be provided in Assamese for better understanding.",
   },
 ];
