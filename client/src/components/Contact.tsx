@@ -4,7 +4,7 @@ import { Phone, MessageCircle, Mail } from "lucide-react";
 import heroImage from "@assets/generated_images/Students_celebrating_academic_success_d0d6a5e9.png";
 
 export function Contact() {
-  const phoneNumber = "8011551863";
+  const phoneNumber = "9678165375";
   const whatsappMessage =
     "Hi, I'm interested in joining your tuition classes to improve my marks. Please share the details with me.";
 
