@@ -69,10 +69,11 @@ export function Hero() {
               </Button>
             </div>
 
-            <div className="bg-accent/30 backdrop-blur-sm border border-accent-border rounded-lg p-4 md:p-6 inline-block">
-              <p className="text-base md:text-lg font-semibold text-foreground">
-                FREE DEMO CLASSES FOR 3 DAYS
-              </p>
+            <div className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-gradient-to-r from-primary/80 via-primary/60 to-primary/80 shadow-xl ring-2 ring-primary/30 animate-fade-up">
+              <Sparkles className="h-6 w-6 text-white drop-shadow" />
+              <span className="text-lg md:text-xl font-bold text-white tracking-wide uppercase">
+              Free Demo Classes for <span className="underline decoration-wavy decoration-white">3 Days</span>
+              </span>
             </div>
           </div>
 
