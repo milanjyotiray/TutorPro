@@ -60,9 +60,9 @@ export const classesData: ClassInfo[] = [
   },
   {
     id: "3",
-    title: "Class 12 (Physics)",
+    title: "Class 12 (PCM)",
     grades: "Class 12",
-    subjects: "Physics",
+    subjects: "Physics,Chemistry & Mathematics",
     boards: "CBSE / ASSEB or SEBA",
   },
 ];
@@ -176,13 +176,13 @@ export const pricingData: PricingTier[] = [
   },
   {
     id: "4",
-    category: "Class 12 (Physics – Online Only)",
+    category: "Class 12 (PCM)",
     oneToOne: {
-      price: "—",
-      details: "Not available",
+      price: "1500",
+      details: "per month (12 classes)",
     },
     group: {
-      price: "₹500",
+      price: "₹800",
       details: "per month (12 classes)",
     },
     isOnlineOnly: true,
