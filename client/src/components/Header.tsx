@@ -83,7 +83,7 @@ export function Header() {
             <Button
               onClick={() =>
                 window.open(
-                  "https://forms.gle/1tPqB9YspCoCvxsh6",
+                  "https://forms.gle/TVEfUBmqcdGKw7Jk6",
                   "_blank"
                 )
               }
@@ -148,7 +148,7 @@ export function Header() {
             <Button
               onClick={() =>
                 window.open(
-                  "https://forms.gle/1tPqB9YspCoCvxsh6",
+                  "https://forms.gle/TVEfUBmqcdGKw7Jk6",
                   "_blank"
                 )
               }

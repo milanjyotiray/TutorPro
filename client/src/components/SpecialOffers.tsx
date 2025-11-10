@@ -119,7 +119,7 @@ export function SpecialOffers() {
             className="text-base md:text-lg h-12 md:h-14 px-8 shadow-lg hover:shadow-xl transition-all duration-300"
             onClick={() =>
               window.open(
-                "https://forms.gle/1tPqB9YspCoCvxsh6",
+                "https://forms.gle/TVEfUBmqcdGKw7Jk6",
                 "_blank"
               )
             }

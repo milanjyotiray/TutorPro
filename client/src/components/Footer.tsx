@@ -72,17 +72,17 @@ export function Footer() {
             <ul className="space-y-3">
               <li>
                 <a
-                  href="tel:8011551863"
+                  href="tel:9678165375"
                   className="flex items-center gap-2 text-sm md:text-base text-muted-foreground hover:text-primary transition-colors"
                   data-testid="link-footer-phone"
                 >
                   <Phone className="h-4 w-4" />
-                  <span>8011551863</span>
+                  <span>9678165375</span>
                 </a>
               </li>
               <li>
                 <a
-                  href="https://wa.me/8011551863"
+                  href="https://wa.me/9678165375"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-2 text-sm md:text-base text-muted-foreground hover:text-primary transition-colors"
