@@ -69,11 +69,8 @@ export function SpecialOffers() {
             return (
               <Card
                 key={offer.id}
-                className={`p-6 md:p-8 transition-all duration-300 transform hover:scale-105 hover:shadow-2xl hover-elevate relative group ${
-                  offer.highlight
-                    ? "border-2 border-primary bg-primary/5"
-                    : ""
-                }`}
+                className={`p-6 md:p-8 transition-all duration-300 transform hover:scale-105 hover:shadow-2xl hover-elevate relative grouphover:border-2 hover:border-primary hover:bg-primary/5`}
+
                 data-testid={`card-offer-${offer.id}`}
               >
                 {offer.highlight && (
