@@ -58,7 +58,7 @@ export function Hero() {
                 className="text-base md:text-lg h-12 md:h-14 px-8 bg-background/60 backdrop-blur-sm"
                 onClick={() =>
                   window.open(
-                    "https://wa.me/7002642149?text=I%20want%20to%20book%20demo",
+                    "https://wa.me/9678165375?text=I%20want%20to%20book%20demo",
                     "_blank"
                   )
                 }
